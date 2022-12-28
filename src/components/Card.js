@@ -6,9 +6,11 @@ function Card() {
     <div className={CardCSS.container}>
       <h4 className={CardCSS.title}>Complete Main UI components</h4>
       <div>
-        <p className={CardCSS.descr}>Hello</p>
+        <p className={CardCSS.descr}>
+          Would be good if we include every component in desging system...
+        </p>
       </div>
-      <div>Due Date</div>
+      <div className={CardCSS.date}>6 April 2023</div>
       <input className={CardCSS.chkbox} type="checkbox"></input>
     </div>
   );

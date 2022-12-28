@@ -1,9 +1,11 @@
 header {
+  width: 9.2%;
   display: flex;
   justify-content: center;
   border: solid 250px white;
   background-color: white;
-  margin-left: 22rem;
+  margin-left: 36rem;
+  margin-top: 10rem;
 }
 
 .todo,
@@ -12,13 +14,10 @@ header {
   border-left: 1.5rem solid white;
   border-right: 1.5rem solid white;
   background-color: white;
+  position: relative;
+  bottom: 15rem;
 }
 
 .todo {
   border-right: 25rem solid white;
-}
-
-.todo,
-.notif {
-  border-bottom: 1px solid rgb(181, 172, 172);
 }
