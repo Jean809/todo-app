@@ -1,5 +1,15 @@
+import Card from "./components/Card";
+import Container from "./components/Container";
+
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div>
+      <Container />
+      <div>
+        <Card />
+      </div>
+    </div>
+  );
 }
 
 export default App;

@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  justify-content: center;
+  border: solid 250px white;
+  background-color: white;
+  margin-left: 22rem;
+}
+
+.todo,
+.notif {
+  border-top: 1.5rem solid white;
+  border-left: 1.5rem solid white;
+  border-right: 1.5rem solid white;
+  background-color: white;
+}
+
+.todo {
+  border-right: 25rem solid white;
+}
+
+.todo,
+.notif {
+  border-bottom: 1px solid rgb(181, 172, 172);
+}
