@@ -1,5 +1,6 @@
 import Card from "./components/Card";
 import Container from "./components/Container";
+import AddCard from "./components/Addcard";
 
 function App() {
   return (
@@ -7,6 +8,10 @@ function App() {
       <Container />
       <div>
         <Card />
+        <Card />
+      </div>
+      <div>
+        <AddCard />
       </div>
     </div>
   );

@@ -1,14 +1,17 @@
 .title {
   margin-bottom: 5px;
+  background-color: white;
 }
 
 .descr {
-  color: rgb(132, 121, 121);
-  margin-bottom: 5px;
+  color: #a4a1a7;
+  margin-bottom: 8px;
+  background-color: white;
 }
 
 .date {
   color: rgb(13, 48, 124);
+  background-color: white;
 }
 
 .container {
@@ -19,12 +22,26 @@
   bottom: 29rem;
   left: 37.5rem;
   padding-top: 10px;
+  padding-left: 3px;
   margin-top: -15px;
-  border-top: 2px solid rgb(164, 159, 159);
+  border-top: 2px solid rgb(0, 0, 0);
+  border-radius: 3px;
+  background-color: white;
+  margin-bottom: 20px;
 }
 
 .chkbox {
   position: absolute;
-  right: 39.7rem;
+  right: 39.5rem;
   bottom: 4rem;
+  height: 15px;
+  width: 15px;
+  border: 1px solid black;
+  border-radius: 50%;
+  appearance: none;
+}
+
+.chkbox:checked {
+  appearance: auto;
+  clip-path: circle(50% at 50% 50%);
 }

@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+  bottom: 17.1rem;
+  left: 35rem;
+  color: rgb(132, 121, 121);
+}
+
+.btn {
+  position: relative;
+  left: 35rem;
+}
+
+.add {
+  margin-left: 1.2rem;
+}
+
+.taskTitle {
+  margin-bottom: 0.8rem;
+}
+
+.taskDescr {
+  margin-bottom: 1.2rem;
+}
