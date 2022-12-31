@@ -10,13 +10,14 @@ function AddCard() {
         <textarea cols="95" rows="4" placeholder="Description"></textarea>
       </div>
       <div className={AddCardCSS.date}>
+        <label>Date</label>
         <input type="date"></input>
       </div>
       <div className={AddCardCSS.btn}>
-        <button className={AddCardCSS.cancel} type="button">
+        <button className={AddCardCSS.cancelTask} type="button">
           Cancel
         </button>
-        <button className={AddCardCSS.add} type="button">
+        <button className={AddCardCSS.addTask} type="button">
           Add Task
         </button>
       </div>

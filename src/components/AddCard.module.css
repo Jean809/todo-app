@@ -1,23 +1,56 @@
 .container {
   position: relative;
-  bottom: 17.1rem;
-  left: 35rem;
+  bottom: 17.5rem;
+  left: 33rem;
   color: rgb(132, 121, 121);
+  background-color: white;
+  width: 38%;
+  padding: 0px 0px 0px 35px;
+  border-radius: 10px;
 }
 
 .btn {
   position: relative;
+  bottom: 1.2rem;
+  width: 20%;
   left: 35rem;
+  background-color: white;
 }
 
-.add {
-  margin-left: 1.2rem;
+.addTask {
+  margin: 0rem 0rem 0rem 3rem;
+  padding: 6px 13px 6px 13px;
+  border-radius: 5px;
+  background-color: rgb(117, 27, 251);
+  color: white;
+}
+
+.cancelTask {
+  position: absolute;
+  right: 7rem;
+  padding: 6px 13px 6px 13px;
+  border-radius: 5px;
+  border: 1px solid #a4a1a7;
+  background-color: white;
+  color: #a4a1a7;
 }
 
 .taskTitle {
-  margin-bottom: 0.8rem;
+  margin: 0rem 0rem 0.8rem;
+  background-color: white;
+  color: white;
+  border-radius: 10px;
 }
 
 .taskDescr {
-  margin-bottom: 1.2rem;
+  margin: 0rem 0rem 1.2rem;
+  background-color: white;
+}
+
+.date {
+  background-color: white;
+}
+
+.date label {
+  margin: 0px 10px 0px 0px;
 }
