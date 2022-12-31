@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import ContainerCSS from "./Container.module.css";
 
 function Container() {
-  const [isEmpty, setIsEmpty] = useState(true);
-
   return (
     <div>
       <header>
