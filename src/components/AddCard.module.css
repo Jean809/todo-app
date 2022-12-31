@@ -1,12 +1,12 @@
 .container {
   position: relative;
-  bottom: 17.5rem;
+  bottom: 18.9rem;
   left: 33rem;
   color: rgb(132, 121, 121);
   background-color: white;
   width: 38%;
   padding: 0px 0px 0px 35px;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .btn {
@@ -37,13 +37,22 @@
 
 .taskTitle {
   margin: 0rem 0rem 0.8rem;
+  padding: 15px 0px 0px 0px;
   background-color: white;
   color: white;
-  border-radius: 10px;
+  border-radius: 30px;
+}
+
+.taskTitle textarea {
+  background-color: white;
 }
 
 .taskDescr {
   margin: 0rem 0rem 1.2rem;
+  background-color: white;
+}
+
+.taskDescr textarea {
   background-color: white;
 }
 
@@ -53,4 +62,9 @@
 
 .date label {
   margin: 0px 10px 0px 0px;
+  background-color: white;
+}
+
+.date input {
+  background-color: white;
 }
