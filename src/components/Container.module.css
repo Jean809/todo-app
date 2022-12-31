@@ -32,11 +32,19 @@ header {
 
 .notif:hover {
   cursor: pointer;
-  border-bottom: 1px solid #a4a1a7;
+  border-bottom: 2px solid #a4a1a7;
 }
 
 .emptyContainer {
-  display: flex;
-  justify-content: center;
-  height: 100%;
+  position: absolute;
+  width: 16%;
+  bottom: 37rem;
+  z-index: 1;
+  left: 46rem;
+  background-color: white;
+}
+
+.emptyContainer h2 {
+  background-color: white;
+  color: #a4a1a7;
 }

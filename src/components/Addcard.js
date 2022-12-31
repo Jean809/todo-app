@@ -10,7 +10,7 @@ function AddCard() {
         <textarea cols="95" rows="4" placeholder="Description"></textarea>
       </div>
       <div className={AddCardCSS.date}>
-        <label>Date:</label>
+        <label>Due Date:</label>
         <input type="date"></input>
       </div>
       <div className={AddCardCSS.btn}>
