@@ -11,14 +11,32 @@ header {
 
 .todo,
 .notif {
-  border-top: 1.5rem solid white;
-  border-left: 1.5rem solid white;
-  border-right: 1.5rem solid white;
+  margin: 1.5rem 1.3rem 0rem 0.6rem;
   background-color: white;
   position: relative;
   bottom: 15rem;
 }
 
 .todo {
-  border-right: 25rem solid white;
+  margin-right: 25.5rem;
+  border-bottom: 2px solid rgb(117, 27, 251);
+}
+
+.todo:hover {
+  cursor: pointer;
+}
+
+.notif {
+  color: #a4a1a7;
+}
+
+.notif:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #a4a1a7;
+}
+
+.emptyContainer {
+  display: flex;
+  justify-content: center;
+  height: 100%;
 }

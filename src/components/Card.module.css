@@ -17,13 +17,11 @@
 .container {
   width: 32.8%;
   height: 5rem;
-  align-items: center;
   position: relative;
-  bottom: 29rem;
+  bottom: 31.5rem;
   left: 37.5rem;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-left: 3px;
-  margin-top: -15px;
   border-top: 2px solid rgb(94, 89, 89);
   border-radius: 3px;
   background-color: white;

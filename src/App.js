@@ -2,6 +2,10 @@ import Card from "./components/Card";
 import Container from "./components/Container";
 import AddCard from "./components/Addcard";
 
+function clickMe() {
+  alert("You clicked me!");
+}
+
 function App() {
   return (
     <div>
