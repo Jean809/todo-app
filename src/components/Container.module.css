@@ -1,3 +1,4 @@
+/*The header is classified as the entire square of container. This is responsible for the position of container as well as the space where everything goes*/
 header {
   width: 9.2%;
   display: flex;
@@ -8,6 +9,8 @@ header {
   margin-top: 10rem;
   border-radius: 10px;
 }
+
+/*This is the bar for "Notifications and "Todo"*/
 
 .todo,
 .notif {
@@ -26,14 +29,7 @@ header {
   cursor: pointer;
 }
 
-.notif {
-  color: #a4a1a7;
-}
-
-.notif:hover {
-  cursor: pointer;
-  border-bottom: 2px solid #a4a1a7;
-}
+/*This is the text to be displayed if no task are added to container*/
 
 .emptyContainer {
   position: absolute;
@@ -47,4 +43,21 @@ header {
 .emptyContainer h2 {
   background-color: white;
   color: #a4a1a7;
+}
+
+/* useState from Notifications to Todo */
+
+.activeBar {
+  border-bottom: 2px solid rgb(117, 27, 251);
+  cursor: pointer;
+}
+
+.inactiveBar {
+  color: #a4a1a7;
+  border-bottom: 0;
+}
+
+.inactiveBar:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #a4a1a7;
 }
