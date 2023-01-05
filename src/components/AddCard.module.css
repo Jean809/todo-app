@@ -24,6 +24,7 @@
   border-radius: 5px;
   background-color: rgb(117, 27, 251);
   color: white;
+  cursor: pointer;
 }
 
 .cancelTask {
@@ -34,6 +35,7 @@
   border: 1px solid #a4a1a7;
   background-color: white;
   color: #a4a1a7;
+  cursor: pointer;
 }
 
 .taskTitle {
