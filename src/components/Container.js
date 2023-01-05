@@ -32,9 +32,6 @@ function Container() {
           Todo
         </h2>
       </header>
-      <div className={`${ContainerCSS.emptyContainer}`}>
-        <h2>Add a task to display here</h2>
-      </div>
     </div>
   );
 }

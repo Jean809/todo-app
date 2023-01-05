@@ -1,0 +1,10 @@
+.emptyContainer {
+  position: absolute;
+  bottom: 38rem;
+  left: 46rem;
+}
+
+.emptyContainer h2 {
+  background-color: white;
+  color: #a4a1a7;
+}
