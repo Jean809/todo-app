@@ -1,6 +1,7 @@
 import AddCardCSS from "./AddCard.module.css";
+import Card from "./Card";
 
-function AddCard() {
+function AddCard(props) {
   return (
     <div className={`${AddCardCSS.container}`}>
       <div className={`${AddCardCSS.taskTitle}`}>
